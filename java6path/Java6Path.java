@@ -7,11 +7,17 @@ import java.util.List;
 
 
 public class Java6Path {
+    /**
+     * Метод, нормализующий путь
+     * @param path - исходный путь, тип String.
+     * @return - нормализованный путь
+     */
     public static String getNormPath(String path){
         List<String> ls=List.of(path.split("/"));
         Deque<String> ds=new ArrayDeque<>();
         for (String s:ls){
             if (s.equals("..")){
+                //если стек пустой или последний элемент выход из дирректории
                 if(ds.isEmpty()||ds.getLast().equals("..")){
                     ds.addLast(s);
                 }
@@ -23,6 +29,7 @@ public class Java6Path {
                 ds.addLast(s);
             }
         }
+        //перевод стека в строку
         String result="";
         for (String s:ds){
             result+=s+"/";
