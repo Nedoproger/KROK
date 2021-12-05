@@ -1,0 +1,32 @@
+[
+  {
+  	"id": 1,
+  	"name": "Apple"
+  },{
+  	"id": 2,
+  	"name": "Banana"
+  },{
+  	"id": 3,
+  	"name": "Carrot"
+  },{
+  	"id": 4,
+  	"name": "Durian"
+  },{
+  	"id": 5,
+  	"name": "Grapefruit"
+  },{
+  	"id": 6,
+  	"name": "Kiwi"
+  },{
+  	"id": 7,
+  	"name": "Lime"
+  },{
+  	"id": 8,
+  	"name": "Mango"
+  },{
+  	"id": 9,
+  	"name": "Pomelo"
+  },{
+  	"id": 10,
+  	"name": "Pineapple"
+  }]
